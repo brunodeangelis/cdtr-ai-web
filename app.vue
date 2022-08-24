@@ -1,5 +1,6 @@
 <script setup>
 useHead({
+  title: "CONDUCTR.AI - Attractions Intelligence",
   meta: [
     {
       name: "robots",
