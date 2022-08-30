@@ -1,6 +1,9 @@
 <script setup>
 useHead({
   title: "CONDUCTR.AI - Attractions Intelligence",
+  htmlAttrs: {
+    lang: "en",
+  },
   meta: [
     {
       name: "robots",
@@ -24,7 +27,7 @@ useHead({
         <CDTRAILogo class="w-[500px] max-w-full" />
       </a>
       <div class="flex flex-col items-center gap-y-3 gap-x-8 sm:flex-row">
-        <a href="https://youtu.be/Q7xlqCiX5vo" target="_blank" class="btn"
+        <a href="https://bit.ly/3ea0iUU" target="_blank" class="btn"
           >Watch the Launch</a
         >
         <a
