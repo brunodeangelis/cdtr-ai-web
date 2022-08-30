@@ -17,10 +17,33 @@ useHead({
       alt="CONDUCTR.AI teaser image"
       class="w-full h-full object-cover"
     />
-    <a href="https://conductr.co.uk" target="_blank">
-      <CDTRAILogo
-        class="px-8 absolute left-1/2 bottom-32 -translate-x-1/2 w-[700px] max-w-full"
-      />
-    </a>
+    <footer
+      class="px-8 w-full absolute left-1/2 bottom-[10%] sm:bottom-[15%] -translate-x-1/2 flex flex-col items-center gap-y-8"
+    >
+      <a href="https://conductr.co.uk" target="_blank">
+        <CDTRAILogo class="w-[500px] max-w-full" />
+      </a>
+      <div class="flex flex-col items-center gap-y-3 gap-x-8 sm:flex-row">
+        <a href="https://youtu.be/Q7xlqCiX5vo" target="_blank" class="btn"
+          >Watch the Launch</a
+        >
+        <a
+          href="https://conductr.co.uk/latest/introducing-attractions-intelligence"
+          target="_blank"
+          class="btn"
+          >Learn More</a
+        >
+      </div>
+    </footer>
   </main>
 </template>
+
+<style>
+body {
+  @apply text-white md:text-lg;
+}
+
+.btn {
+  @apply inline-flex text-center uppercase tracking-wider bg-dark px-6 py-3 ring-1 ring-white transition-all duration-200 ease-out hover:ring-primary hover:text-primary;
+}
+</style>
