@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/article",
+      "destination": "https://blooloop.com/technology/news/conductr-attractions-intelligence/",
+      "permanent": true
+    }
+  ]
+}
